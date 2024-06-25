@@ -13,7 +13,7 @@ const Header = () => {
       <nav className='hidden md:block'>
         <ul className='flex'>
           <li><a href="/Portfolio/#about">About</a></li>
-          <li><a href="/Portfolio/#experience">Experience</a></li>
+          <li><a href="/#experience">Experience</a></li>
           <li><a href="/Portfolio/#project">Projects</a></li>
           <li><a href="/Portfolio/#contact">Contact</a></li>
           <li><a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noreferrer">Resume</a></li>
