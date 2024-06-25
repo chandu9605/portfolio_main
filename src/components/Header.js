@@ -16,7 +16,7 @@ const Header = () => {
           <li><a href="/Portfolio/#experience">Experience</a></li>
           <li><a href="/Portfolio/#project">Projects</a></li>
           <li><a href="/Portfolio/#contact">Contact</a></li>
-          <li><a href="https://drive.google.com/file/d/1wmKBPwXA7vlTTN7RYNNbD7ltFtLfrrMT/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
+          <li><a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
         {/*mob nav*/}
@@ -26,7 +26,7 @@ const Header = () => {
           <li><a href="/Portfolio/#experience">Experience</a></li>
           <li><a href="/Portfolio/#project">Projects</a></li>
           <li><a href="/Portfolio/#contact">Contact</a></li>
-          <li><a href="https://drive.google.com/file/d/1wmKBPwXA7vlTTN7RYNNbD7ltFtLfrrMT/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
+          <li><a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
 
