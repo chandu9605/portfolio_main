@@ -12,21 +12,21 @@ const Header = () => {
         {/*Desk nav*/}
       <nav className='hidden md:block'>
         <ul className='flex'>
-          <li><a href="/Portfolio/#about">About</a></li>
-          <li><a href="/#experience">Experience</a></li>
-          <li><a href="/Portfolio/#project">Projects</a></li>
-          <li><a href="/Portfolio/#contact">Contact</a></li>
-          <li><a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noreferrer">Resume</a></li>
+          {/* <li><a href="/Portfolio/#about">About</a></li> */}
+          {/* <li><a href="/Portfolio/#experience">Experience</a></li> */}
+          {/* <li><a href="/Portfolio/#project">Projects</a></li> */}
+          {/* <li><a href="/Portfolio/#contact">Contact</a></li> */}
+          {/* <li><a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noreferrer">Resume</a></li> */}
         </ul>
       </nav>
         {/*mob nav*/}
         <nav className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}>
         <ul className='flex flex-col'>
-          <li><a href="/Portfolio/#about">About</a></li>
-          <li><a href="/Portfolio/#experience">Experience</a></li>
-          <li><a href="/Portfolio/#project">Projects</a></li>
-          <li><a href="/Portfolio/#contact">Contact</a></li>
-          <li><a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noreferrer">Resume</a></li>
+          {/* <li><a href="/Portfolio/#about">About</a></li> */}
+          {/* <li><a href="/Portfolio/#experience">Experience</a></li> */}
+          {/* <li><a href="/Portfolio/#project">Projects</a></li> */}
+          {/* <li><a href="/Portfolio/#contact">Contact</a></li> */}
+          {/* <li><a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noreferrer">Resume</a></li> */}
         </ul>
       </nav>
 
